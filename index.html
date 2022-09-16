@@ -24,8 +24,8 @@
 		<ul class="navbar">
 			<li><a href="#home">Home</a></li>
 			<li><a href="#about">About Me</a></li>
-			<li><a href="#services">Skill</a></li>
-			<li><a href="#portfolio">Project</a></li>
+			<li><a href="#project">Project</a></li>
+			<li><a href="#portfolio">Skill</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</header>
@@ -36,7 +36,7 @@
 			<h4>Hello</h4>
 			<h1>I'm Mansi <br> D<span>eshmukh</span></h1>
 			<h3>Java Developer</h3>
-			<a href="#" class="btn">Resume</a>
+			<a href="./Resume/MansiResume.pdf" download class="btn" id="download">Resume</a>
 		</div>
 	</section>
 
@@ -48,8 +48,10 @@
 
 		<div class="about-text">
 			<h2>About Me</h2>
-			<h4>Dummy Text</h4>
-			<p>Dummy Text</p>
+			<h4>I'm Mansi Deshmukh and I'm a Back-End Developer</h4>
+			<p>A java developer with excellent problem solving skill and a team player with positive attitude.I'm optimistic, enthusiastic and social person who loves to take up new challenges and learn new skills. 
+				I have lot of interest in coding.
+			</p>
 			<div class="about-gri">
 				<div class="about-in">
 					<h5>1. Problem Solving</h5>
@@ -84,20 +86,25 @@
                 <!-- href="https://meesho-clone-masai.netlify.app/" -->
 				<img src="images/MeeshoProject.jpeg">
 				<h3 >Meesho clone</h3>
-				<p></p>
+				<p>Tech Stack Used <br>HTML | CSS | JavaScript</p>
+				<a href="https://github.com/sauravsamui/meesho-clone"><button>Code</button></a>
+				<a href="https://meesho-clone-masai.netlify.app/"><button>Link</button></a>
 			</div>
 
 			<div class="box">
                 <!-- https://tranquil-biscochitos-186ca9.netlify.app/index.html -->
 				<img src="images/ApolloProject.jpeg">
 				<h3>Apollo 24/7 Clone</h3>
-				<p></p>
+				<p>Tech Stack Used <br>HTML | CSS | JavaScript</p>
+				<a href="https://github.com/TruptiRG/U2_Project-Apollo-">
+					<button>Code</button></a>
+				<a href="https://tranquil-biscochitos-186ca9.netlify.app/"><button>Live</button></a>
 			</div>
 
 			<div class="box">
 				<img src="">
 				<h3></h3>
-				<p>need to add one more project</p>
+				<p></p>
 			</div>
 
 		</div>
@@ -154,7 +161,7 @@
 				<img src="images/CSS.png">
 				<div class="main-row">
 					<div class="row-text">
-						<h6>Development</h6>
+						<h6></h6>
 					</div>
 					<div class="row-icon">
 						<i class='bx bx-heart'></i>
@@ -204,23 +211,24 @@
 				<li><a href="#">8871560690</a></li>
 			</div>
 			<div class="contact-icons">
-				<a href="#"><i class='bx bxl-linkedin' ></i></a>
-				<a href="#"><i class='bx bxl-facebook' ></i></a>
-				<a href="#"><i class='bx bxl-behance' ></i></a>
-				<a href="#"><i class='bx bxl-instagram' ></i></a>
-				<a href="#"><i class='bx bxl-dribbble' ></i></a>
+				<a href="https://www.linkedin.com/in/mansi-deshmukh-343112180/"><i class='bx bxl-linkedin' ></i></a>
+				<a href="https://github.com/Mansi-Deshmukh"><i class='bx bxl-github'></i></a>
+				<a href="mailto:deshmukhmansi147@gmail.com"><i class='bx bxl-gmail'></i></a>
+				<a href="https://medium.com/@Mansi-Deshmukh/"><i class='bx bxl-medium' ></i></a>
+				<!-- <a href="#"><i class='bx bxl-dribbble' ></i></a> -->
 			</div>
 		</div>
-
 		<div class="contact-form">
-			<form action="">
-				<input type="" placeholder="Enter Your Name" required>
-				<input type="email" placeholder="Enter Your Email" required>
-				<input type="" placeholder="Enter Your Subject">
-				<textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
-				<input type="submit" value="Submit" class="send">
+			<form onsubmit="sendEmail(); reset(); return false; ">
+				<input type="" id="name" placeholder="Enter Your Name" required>
+				<input type="email" id="email" placeholder="Enter Your Email" required>
+				<input type="" id="sub" placeholder="Enter Your Subject">
+				<textarea name="" id="message" cols="40" rows="10" placeholder="How can I help You" required></textarea>
+				<input type="submit" value="Send" class="send">
 			</form>
 		</div>
+
+		
 	</section>
 
 	<div class="last-text">
@@ -232,6 +240,26 @@
 
 	<script src="https://unpkg.com/scrollreveal"></script>
 
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+	<script>
+		function sendEmail(){
+			Email.send({
+				Host: "smtp.gmail.com",
+				Username :"deshmukhmansi147@gmail.com",
+				Password :"",
+				To :"deshmukhmansi147@gmail.com",
+				From :document.getElementById("email").value,
+				Subject :"",
+				Body :"Name:"+document.getElementById("name").value
+				+"<br> Email"+ document.getElementById("email").value
+				+"<br> Email"+ document.getElementById("sub").value
+				+"<br> Message:" + document.getElementById("message").value
+			}).then(
+				message =>alert("Message send successfully")
+			)
+		}
+	</script>
 	<!---custom js link--->
 	<!-- <script type="text/javascript" src="index.js"></script> -->
 

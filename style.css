@@ -71,7 +71,7 @@ section{
 	height: 100vh;
 	width: 100%;
 	position: relative;
-	background: url(images/MansiP.jpeg);
+	/* background: url(images/MansiP.jpeg); */
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -171,6 +171,7 @@ header.sticky{
 	font-weight: 600;
 }
 .project-content{
+	
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
 	align-items: center;
@@ -210,10 +211,22 @@ header.sticky{
 	border-radius: 0.5rem;
 	/* margin-bottom: 1.5rem; */
 }
-
+.box button{
+	padding: 10px;
+	width: 100px;
+	margin: 20px;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bolder;
+	/* font-weight: 500; */
+    /* background:rgb(37, 65, 88); */
+	border: none;
+	color: wheat;
+	background-color:rgb(3, 68, 126);
+}
 .portfolio-content{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(150px, auto));
 	align-items: center;
 	gap: 2rem;
 	margin-top: 5rem;
@@ -226,7 +239,8 @@ header.sticky{
 }
 .row{
 	padding: 25px;
-	background: #12141c;
+	background: rgb(3, 68, 126);
+	/* background: #12141c; */
 	border-radius: 0.5rem;
 	transition: all .40s ease;
 }
