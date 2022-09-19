@@ -71,6 +71,8 @@ section{
 	height: 100vh;
 	width: 100%;
 	position: relative;
+	background: url('images/backgroundImg1.jpg');
+
 	/* background: url(images/MansiP.jpeg); */
 	background-size: cover;
 	background-position: center;
@@ -156,6 +158,7 @@ header.sticky{
 	height: auto;
 	width: 100%;
 	max-width: 460px;
+	border-radius: 1%;
 }
 
 .main-text{
@@ -231,6 +234,13 @@ header.sticky{
 	gap: 2rem;
 	margin-top: 5rem;
 }
+.cal{
+	text-align: center;
+}
+/* .cal h3{
+	
+	text-align: center;
+} */
 .row img{
 	height: auto;
 	width: 100%;
@@ -267,7 +277,23 @@ header.sticky{
 	transform: scale(1.01) translateY(-5px);
 	cursor: pointer;
 }
-
+.stats{
+	background-image: "ima";
+}
+.stats-content{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+	align-items: center;
+	gap: 2rem;
+	margin-top: 5rem;
+	
+}
+.stats{
+	background: url('images/backgroundImg1.jpg');
+}
+.stats-content h3{
+	color: blue;
+}
 .contact{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);

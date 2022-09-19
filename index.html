@@ -36,14 +36,14 @@
 			<h4>Hello</h4>
 			<h1>I'm Mansi <br> D<span>eshmukh</span></h1>
 			<h3>Java Developer</h3>
-			<a href="./Resume/MansiResume.pdf" download class="btn" id="download">Resume</a>
+			<a href="images/MansiResume.pdf" class="btn" id="download" download>Resume</a>
 		</div>
 	</section>
 
 	<!---about--->
 	<section class="about" id="about">
 		<div class="about-img">
-			<img src="images/MansiP.jpeg">
+			<img src="images/MansiPh.jpeg">
 		</div>
 
 		<div class="about-text">
@@ -101,11 +101,11 @@
 				<a href="https://tranquil-biscochitos-186ca9.netlify.app/"><button>Live</button></a>
 			</div>
 
-			<div class="box">
+			<!-- <div class="box">
 				<img src="">
 				<h3></h3>
 				<p></p>
-			</div>
+			</div> -->
 
 		</div>
 	</section>
@@ -199,6 +199,68 @@
 		</div>
 	</section>
 
+	<section  class="stats" id="stats">
+		<div class="main-text">
+
+		</div>
+		<div class="stats-content">
+             <div class="box">
+                  <h3>1200+</h3>
+				  <p>Hours of <br> Coding</p>
+			 </div>
+			 <div class="box">
+                   <h3>20+</h3>
+				   <p>Hackerrank <br> Problems</p>
+                    
+			</div>
+			<div class="box">
+                  <h3>100+</h3>
+				  <p>Git<br> Commits</p>
+			</div>
+			<div class="box">
+                    <h3>10+</h3>
+					<p>Tech <br>Projects</p>
+			</div>
+			<div class="box">
+                    <h3>100+</h3>
+			         <p>of Soft <br>Skills Sessions</p>
+				</div>
+		</div>
+	</section>
+    <section class="cal">
+		<div class="main-text">
+			<h2>My GitHub <br>Contrubution</h2> 
+			<h3>   </h3>
+		</div>
+	<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+	</script>
+	
+	<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+	<link
+	rel="stylesheet"
+	href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+	/>
+	
+	<!-- Prepare a container for your calendar. -->
+	<div class="calendar">
+	  <!-- Loading stuff -->
+	  Loading the data just for you.
+	</div>
+	
+	<script>
+	  GitHubCalendar(".calendar", "your-username");
+	
+	  // or enable responsive functionality:
+	  GitHubCalendar(".calendar", "your-username", { responsive: true });
+	
+	  // Use a proxy
+	  GitHubCalendar(".calendar", "your-username", {
+		 proxy (username) {
+		   return fetch(`https://your-proxy.com/github?user=${username}`)
+		 }
+	  }).then(r => r.text())
+	</script>
+    </section>
 	<!---contact--->
 	<section class="contact" id="contact">
 		<div class="contact-text">
@@ -215,7 +277,8 @@
 				<a href="https://github.com/Mansi-Deshmukh"><i class='bx bxl-github'></i></a>
 				<a href="mailto:deshmukhmansi147@gmail.com"><i class='bx bxl-gmail'></i></a>
 				<a href="https://medium.com/@Mansi-Deshmukh/"><i class='bx bxl-medium' ></i></a>
-				<!-- <a href="#"><i class='bx bxl-dribbble' ></i></a> -->
+				
+				<a href="https://wa.me/+918871560690" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
 			</div>
 		</div>
 		<div class="contact-form">
@@ -260,8 +323,8 @@
 			)
 		}
 	</script>
-	<!---custom js link--->
-	<!-- <script type="text/javascript" src="index.js"></script> -->
+	<!-- Include the library. -->
+
 
 </body>
 </html>
