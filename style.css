@@ -71,7 +71,7 @@ section{
 	height: 100vh;
 	width: 100%;
 	position: relative;
-	background: url('images/backgroundImg1.jpg');
+/* 	background: url('images/backgroundImg1.jpg'); */
 
 	/* background: url(images/MansiP.jpeg); */
 	background-size: cover;
