@@ -183,7 +183,7 @@ header.sticky{
 	margin-top: 5rem;
 }
 .box{
-	padding: 45px;
+	padding: 30px;
 	background: #12141c;
 	border-top: 5px solid transparent;
 	border-radius: 0.5rem;
@@ -195,6 +195,9 @@ header.sticky{
 	font-weight: 600;
 	margin: 15px 0;
 	transition: all .40s ease;
+}
+.box h5{
+	color: var(--second-color);
 }
 .box p{
 	color: var(--second-color);
