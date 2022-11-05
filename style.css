@@ -202,7 +202,7 @@ header.sticky{
 	font-size: 14px;
 }
 .box p{
-/* 	color: white; */
+	color: white;
 /* 	color: var(--second-color); */
 	font-size: var(--p-font);
 	line-height: 30px;
