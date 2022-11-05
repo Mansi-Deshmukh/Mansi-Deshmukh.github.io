@@ -202,7 +202,8 @@ header.sticky{
 	font-size: 14px;
 }
 .box p{
-	color: var(--second-color);
+/* 	color: white; */
+/* 	color: var(--second-color); */
 	font-size: var(--p-font);
 	line-height: 30px;
 }
@@ -214,7 +215,7 @@ header.sticky{
 	color: var(--main-color);
 }
 .box img{
-    height: auto;
+        height: auto;
 	width: 100%;
 	border-radius: 0.5rem;
 	/* margin-bottom: 1.5rem; */
