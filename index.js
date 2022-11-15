@@ -40,3 +40,12 @@ resumeSec.forEach((el)=> el.addEventListener("click",()=>{
         '_blank'
       );
 })) 
+
+
+let resumed = document.querySelectorAll(".btn")
+resumed.forEach((el)=> el.addEventListener("click",()=>{
+    window.open(
+        'https://drive.google.com/file/d/1gRGPY--iLNKflls24xzLRTAQ8Yfm7aIA/view?usp=share_link',
+        '_blank'
+      );
+})) 
