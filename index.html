@@ -228,9 +228,11 @@
 				<h3>Meesho clone</h3>
 				<h5>Meesho operates as an online reselling platform offering different categories of product.FEATURES:Add to cart,Sign in using otp,Product section.</5>
 				<p>Tech Stack Used <br>HTML | CSS | JavaScript</p>
-				<a href="https://github.com/sauravsamui/meesho-clone">
+				<div style="display: flex;">
+				  <a href="https://github.com/sauravsamui/meesho-clone">
 					<button>Code</button></a>
-				<a href="https://meesho-clone-masai.netlify.app/"><button>Live</button></a>
+				  <a href="https://meesho-clone-masai.netlify.app/"><button>Live</button></a>
+				</div>
 <!-- 				<img src="images/MeeshoProject.jpeg">
 				<h3 >Meesho clone</h3>
 				<h5>Meesho operates as an online reselling platform offering different categories of product.FEATURES: Add to cart, Sign in using otp, Product section.</h5>
@@ -246,9 +248,12 @@
 				<h5>Apollo 24|7 is a single online platform where you have access to a wide range of services like online pharmacy, doctor consultations, and diagnostic lab tests at home.</5>
 <!-- 				<h5>Apollo 247.com is an online Doctor consultation & book Lab tests at home.A collaborative project built by a team of 6, and executed in 5 days.</5> -->
 				<p>Tech Stack Used <br>HTML | CSS | JavaScript</p>
-				<a href="https://github.com/TruptiRG/U2_Project-Apollo-">
+				<div style="display: flex;">
+				  <a href="https://github.com/TruptiRG/U2_Project-Apollo-">
 					<button>Code</button></a>
-				<a href="https://tranquil-biscochitos-186ca9.netlify.app/"><button>Live</button></a>
+				  <a href="https://tranquil-biscochitos-186ca9.netlify.app/"><button>Live</button></a>
+				</div>
+
 			</div>
                <!--     To do list -->
 			<div class="box">
@@ -256,8 +261,10 @@
 				<h3>To Do List</h3>
 				<h5>I have created a to-do list app with local storage.This app will be helpfull in making day to day task. User can add task that need to complete and make changes in those task and also remove them from the list.</5>
 				<p>Tech Stack Used <br>HTML | CSS | JavaScript</p>
-				<a href="https://github.com/Mansi-Deshmukh/To-Do-List"><button>Code</button></a>
-				<a href="https://633385f4107b11006ca77737--polite-palmier-a47263.netlify.app/"><button>Live</button></a>
+				<div style="display: flex;">
+				 <a href="https://github.com/Mansi-Deshmukh/To-Do-List"><button>Code</button></a>
+				 <a href="https://633385f4107b11006ca77737--polite-palmier-a47263.netlify.app/"><button>Live</button></a>
+				</div>
 			</div>
 			
 			
@@ -266,8 +273,10 @@
 				<h3>Cricbuzz</h3>
 				<h5>Cricbuzz is a platform which provide news and updates related to cricket. Cricbuzz provides the fastest ball-by-ball commentary and score that is at par with live action, along with the best updated cricket news, photo-galleries.</5>
 				<p>Tech Stack Used <br>HTML | CSS | JavaScript</p>
+				<div style="display: flex;">
 				<a href="https://github.com/Mansi-Deshmukh/cricbuzz"><button>Code</button></a>
 				<a href="https://62ac53b3fde5723a34fd9e62--thriving-entremet-307522.netlify.app/"><button>Live</button></a>
+		     	</div>
 			</div>
 			
               <!-- 			another project -->
@@ -323,42 +332,47 @@
 				</div>
 		</div>
 	</div>
+
+	<!-- GitHubCalendar -->
+
     <div class="cal">
+
 		<div class="main-text">
 			<h2>My GitHub <br>Contrubution</h2> 
 			<h3>   </h3>
 		</div>
-	   <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-	  </script>
+	    <div id="cal-color">
+	      <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 	
-	  <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-	   <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+	       <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+	      <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 	
-	  <!-- Prepare a container for your calendar. -->
-	  <div class="calendar">
-	  <!-- Loading stuff -->
-	  Loading the data just for you.
-	  </div>
+	      <!-- Prepare a container for your calendar. -->
+	      <div class="calendar">
+	         <!-- Loading stuff -->
+	         Loading the data just for you.
+	      </div>
+	 
+	      <script>
+	        GitHubCalendar(".calendar", "Mansi-Deshmukh");
 	
-	  <script>
-	  GitHubCalendar(".calendar", "Mansi-Deshmukh");
+	        // or enable responsive functionality:
+	         GitHubCalendar(".calendar", "Mansi-Deshmukh", { responsive: true });
 	
-	  // or enable responsive functionality:
-	  GitHubCalendar(".calendar", "Mansi-Deshmukh", { responsive: true });
-	
-// 	  // Use a proxy
-// 	  GitHubCalendar(".calendar", "Mansi-Deshmukh", {
-// 		 proxy (username) {
-// 		   return fetch(`https://your-proxy.com/github?user=${Mansi-Deshmukh}`)
-// 		 }
-// 	  }).then(r => r.text());
-       </script>
-	   <div style="display: flex; padding-top: 10px; justify-content: space-between;">
+                // 	  // Use a proxy
+               // 	  GitHubCalendar(".calendar", "Mansi-Deshmukh", {
+               // 		 proxy (username) {
+               // 		   return fetch(`https://your-proxy.com/github?user=${Mansi-Deshmukh}`)
+               // 		 }
+                // 	  }).then(r => r.text());
+          </script>
+	      <div style="display: flex; padding-top: 10px; justify-content: space-between;">
 
-	    <img  src="https://github-readme-stats.vercel.app/api/top-langs?username=mansi-deshmukh&show_icons=true&locale=en&layout=compact&bg_color=0C135E&text_color=ffffff&repo=convoychat" alt="mansi-deshmukh" /></p>
+	           <img  src="https://github-readme-stats.vercel.app/api/top-langs?username=mansi-deshmukh&show_icons=true&locale=en&layout=compact&bg_color=0C135E&text_color=ffffff&repo=convoychat" alt="mansi-deshmukh"  style="width: 42%;"/></p>
         
-	    <img  src="https://github-readme-stats.vercel.app/api?username=mansi-deshmukh&show_icons=true&locale=en&bg_color=0C135E&text_color=ffffff&repo=convoychat" alt="mansi-deshmukh" style="padding-left: 10px;"/></p>
+	           <img  src="https://github-readme-stats.vercel.app/api?username=mansi-deshmukh&show_icons=true&locale=en&bg_color=0C135E&text_color=ffffff&repo=convoychat" alt="mansi-deshmukh" style="padding-left: 10px; width: 44%;"/></p>
   
+	      </div>
 	   </div>
 	</div>
 
