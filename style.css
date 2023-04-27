@@ -212,7 +212,7 @@ header.sticky{
 #projects{
 	padding-top: 100px;
 }
-.project-card{
+.project-content{
 	
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
@@ -221,7 +221,7 @@ header.sticky{
 	gap: 2rem;
 	margin-top: 5rem;
 }
-.box{
+.project-card{
 	padding: 30px;
 	/* background: #12141c; */
 	background: rgb(196, 196, 235);
@@ -230,37 +230,37 @@ header.sticky{
 	transition: all .40s ease;
 	cursor: pointer;
 }
-.box h3{
+.project-card h3{
 	font-size: 24px;
 	font-weight: 600;
 	margin: 15px 0;
 	transition: all .40s ease;
 }
-.box h5{
+.project-card h5{
 	color: var(--second-color);
 	font-family: 'Quicksand', sans-serif;
 	font-size: 14px;
 }
-.box p{
+.project-card p{
 	color: white;
 /* 	color: var(--second-color); */
 	font-size: var(--p-font);
 	line-height: 30px;
 }
-.box:hover{
+.project-card:hover{
 	transform: scale(1.01) translateY(-5px);
 	border-top: 5px solid var(--main-color);
 }
-.box:hover h3{
+.project-card:hover h3{
 	color: var(--main-color);
 }
-.box img{
+.project-card img{
         height: auto;
 	width: 100%;
 	border-radius: 0.5rem;
 	/* margin-bottom: 1.5rem; */
 }
-.box button{
+.project-card button{
 	padding: 10px;
 	width: 100px;
 	margin: 20px;
