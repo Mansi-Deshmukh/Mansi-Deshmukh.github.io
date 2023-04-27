@@ -212,7 +212,7 @@ header.sticky{
 #projects{
 	padding-top: 100px;
 }
-.project-content{
+.project-card{
 	
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
