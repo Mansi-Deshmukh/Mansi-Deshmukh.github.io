@@ -180,13 +180,13 @@ header.sticky{
 	font-size: 22px;
 	font-weight: 600;
 }
-.about-img{
+.home-img{
 	height: auto;
 	width: 100%;
 	max-width: 460px;
 	padding: 5%;
 }
-.about-img img{
+.home-img img{
 	height: auto;
 	width: 100%;
 	max-width: 460px;
