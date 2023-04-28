@@ -559,6 +559,6 @@ form textarea{
 	}
 	:root{
 		--h1-font: 3.7rem;
-	  --h2-font: 2.7rem;
+	        --h2-font: 2.7rem;
 	}
 }
