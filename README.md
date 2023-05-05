@@ -5,7 +5,7 @@ You can find more information about me.
 
 <a href="https://mansi-deshmukh.github.io/"  target="_blank" >Deployment</a>
 # Tech Stack
-- html
+- HTML
 - Css
 - JavaScript
 
