@@ -47,10 +47,10 @@ header{
 	width: 135px;
 	height: auto;
 }
-.nav-link{
+.nav_list{
 	display: flex;
 }
-.nav-link a{
+.nav-listk a{
 	color: var(--second-color);
 	font-size: var(--p-font);
 	font-weight: 600;
@@ -59,7 +59,7 @@ header{
 	border-radius: 0.5rem;
 	transition: all .40s ease;
 }
-.nav-link a:hover{
+.nav-list a:hover{
 	background: var(--main-color);
 	color: var(--bg-color);
 }
