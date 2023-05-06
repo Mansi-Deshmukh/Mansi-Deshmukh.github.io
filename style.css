@@ -71,7 +71,7 @@ header{
 	display: none;
 }
 
-.home1{
+#home{
 	height: 100vh;
 	width: 100%;
 	position: relative;
