@@ -147,7 +147,7 @@ header.sticky{
 	background: var(--bg-color);
 	border-bottom: 1px solid #0e1630;
 }
-.about-section{
+#about{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
