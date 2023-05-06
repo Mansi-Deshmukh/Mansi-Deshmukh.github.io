@@ -47,10 +47,10 @@ header{
 	width: 135px;
 	height: auto;
 }
-.nav_list{
+.nav-list{
 	display: flex;
 }
-.nav_list a{
+.nav-list a{
 	color: var(--second-color);
 	font-size: var(--p-font);
 	font-weight: 600;
@@ -59,7 +59,7 @@ header{
 	border-radius: 0.5rem;
 	transition: all .40s ease;
 }
-.nav_list a:hover{
+.nav-list a:hover{
 	background: var(--main-color);
 	color: var(--bg-color);
 }
@@ -71,7 +71,7 @@ header{
 	display: none;
 }
 
-#home{
+.home{
 	height: 100vh;
 	width: 100%;
 	position: relative;
@@ -147,7 +147,7 @@ header.sticky{
 	background: var(--bg-color);
 	border-bottom: 1px solid #0e1630;
 }
-#about{
+.about-section{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
@@ -169,7 +169,6 @@ header.sticky{
 	line-height: 30px;
 	margin-bottom: 2rem;
 }
-
 .about-gri{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, auto));
@@ -207,7 +206,7 @@ header.sticky{
 	font-size: 24px;
 	font-weight: 600;
 }
-.skills-section{
+#skills{
 	padding-top: 100px;
 }
 #projects{
@@ -560,6 +559,6 @@ form textarea{
 	}
 	:root{
 		--h1-font: 3.7rem;
-	        --h2-font: 2.7rem;
+	  --h2-font: 2.7rem;
 	}
 }
