@@ -71,7 +71,7 @@ header{
 	display: none;
 }
 
-.home{
+#home{
 	height: 100vh;
 	width: 100%;
 	position: relative;
@@ -147,7 +147,7 @@ header.sticky{
 	background: var(--bg-color);
 	border-bottom: 1px solid #0e1630;
 }
-.about-section{
+#about{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
