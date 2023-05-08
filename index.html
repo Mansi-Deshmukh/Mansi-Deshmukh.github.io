@@ -26,9 +26,9 @@
 		<ul class="nav-list">
 			<li><a href="#home" class="nav-link home">Home</a></li>
 			<li><a href="#about" class="nav-link about">About Me</a></li>
-			<li><a href="#project" class="nav-link ">Project</a></li>
-			<li><a href="#portfolio" class="nav-link ">Skill</a></li>
-			<li><a href="#contact" class="nav-link ">Contact</a></li>
+			<li><a href="#projects" class="nav-link projects">Project</a></li>
+			<li><a href="#skills" class="nav-link skills">Skill</a></li>
+			<li><a href="#contact" class="nav-link contant">Contact</a></li>
 			<li class="drive" ><a href="resume/Mansi_Deshmukh_ Resume.pdf" id="resume-button-1" target="_blank">Resume</a></li>
 		</ul>
 	</header>
@@ -47,12 +47,12 @@
 	</div>
 
 	<!---about section--->
-	<div id="about"class ="about" >
+	<div id="about"class ="about section" >
 		<div class="about-text">
-			<h2 class="section">About Me</h2>
+			<h2 >About Me</h2>
 			<h4>I'm Mansi Deshmukh and I'm a Back-End Developer</h4>
 			<p id="user-detail-intro">A java developer with excellent problem solving skill and a team player with positive attitude.I'm optimistic, enthusiastic and social person who loves to take up new challenges and learn new skills. 
-				I have lot of interest in coding.
+				I have lot of interest in coding. tech stack java, spring boot, ect.
 			</p>
 			
 		
@@ -85,27 +85,28 @@
 	</div>
 
     <!---Technical skills--->
-	<div class="portfolio" id="skills">
+	<div class="skills" id="skills">
 		<div class="main-text">
 			<h2>Technical Skills</h2>
 			<h4></h4>
 		</div>
 
 		<div class="techskill-content" >
-			<div class="row" class="skills-card">
+			<div class="row skils-card" >
 				<img src="images/Java.png">
 				<div class="main-row">
 					<div class="row-text">
 						<h6></h6>
 					</div>
 					<!-- <div class="row-icon">
+						 class="skills-card"
 						<i class='bx bx-heart'></i>
 					</div> -->
 				</div>
 				<h3></h3>
 			</div>
 
-			<div class="row" class="skills-card">
+			<div  class="row skills-card" >
 				<img src="images/JavaScript.png">
 				<div class="main-row">
 					<div class="row-text">
@@ -118,7 +119,7 @@
 				<h3></h3>
 			</div>
 
-			<div class="row" class="skills-card">
+			<div class="row skills-card">
 				<img src="images/html.png">
 				<div class="main-row">
 					<div class="row-text">
@@ -131,7 +132,7 @@
 				<h3></h3>
 			</div>
 
-			<div class="row">
+			<div class="row skills-card">
 				<img src="images/CSS.png">
 				<div class="main-row">
 					<div class="row-text">
@@ -144,7 +145,7 @@
 				<h3></h3>
 			</div>
 
-			<div class="row">
+			<div  class="row skills-card">
 				<img src="images/github.png">
 				<div class="main-row">
 					<div class="row-text">
@@ -157,7 +158,7 @@
 				<h3></h3>
 			</div>
 
-			<div class="row">
+			<div class="row skills-card">
 				<img src="images/mysql.png">
 				<div class="main-row">
 					<div class="row-text">
@@ -170,7 +171,7 @@
 				<h3></h3>
 			</div>
 
-			<div class="row">
+			<div class="row skills-card">
 				<img src="images/postman (1).jpg">
 				<div class="main-row">
 					<div class="row-text">
@@ -183,7 +184,7 @@
 				<h3></h3>
 			</div>
 
-			<div class="row">
+			<div class="row skills-card">
 				<img src="images/spring.png">
 				<div class="main-row">
 					<div class="row-text">
@@ -196,7 +197,7 @@
 				<h3></h3>
 			</div>
 
-			<div class="row">
+			<div class="row skills-card">
 				<img src="images/hibernate.png">
 				<div class="main-row">
 					<div class="row-text">
@@ -214,7 +215,7 @@
 
 	<!---project--->
 
-	<div class="project" id="projects">
+	<div class="projects" id="projects">
 		<div class="main-text">
 			<h2>Projects</h2>
 			<h4>Some Of My Distinguished Works</h4>
@@ -223,8 +224,9 @@
 		<div class="project-content">
 			<!-- Bank Management System -->
 			<div class="project-card">
-				<img src="images/todozlist.jpeg">
 				<h3 class="project-title">Bank Management REST Api</h3>
+				<img src="images/todozlist.jpeg">
+				
 				<h5 class="project-description">This is a Java Spring Boot application for managing banks, branches, users, employees, accounts, loans, and loan payments. It provides a REST API for performing CRUD (Create, Read, Update, Delete) operations on the various entities in the system.</5>
 				<p class="project-tech-stack">Tech Stack Used <br>Java | MySql | Spring Data-JPA | Spring Boot </p>
 				<div style="display: flex;">
@@ -234,8 +236,9 @@
 			</div>
 			<!-- Vaccination Click -->
 			<div class="project-card">
-				<img src="images/vaccinationclickER.png" height ="500px">
 				<h3 class="project-title">Vaccination Click</h3>
+				<img src="images/vaccinationclickER.png" height ="500px">
+				
 				<h5 class="project-description">This application will facilitate the citizen with an option to register and schedule the vaccination session online in Centers of their choice.</5>
 				<p class="project-tech-stack">Tech Stack Used <br>Java | MySql | Spring Data-JPA | Spring Boot | Hibernate | Swagger UI </p>
 				<div style="display: flex;">
@@ -245,8 +248,9 @@
 			</div>
 			<div class="project-card" >
                 <!-- href="https://meesho-clone-masai.netlify.app/" -->
-				<img src="images/MeeshoProject.jpeg">
 				<h3 class="project-title">Meesho clone</h3>
+				<img src="images/MeeshoProject.jpeg">
+
 				<h5 class="project-description">Meesho operates as an online reselling platform offering different categories of product.FEATURES:Add to cart,Sign in using otp,Product section.</5>
 				<p>Tech Stack Used <br>HTML | CSS | JavaScript</p>
 				<div style="display: flex;">
@@ -264,8 +268,9 @@
 
 			<div class="project-card">
                 <!-- https://tranquil-biscochitos-186ca9.netlify.app/index.html -->
-				<img src="images/ApolloProject.jpeg">
 				<h3 class="project-title">Apollo 24/7 Clone</h3>
+				<img src="images/ApolloProject.jpeg">
+				
 				<h5 class="project-description">Apollo 24|7 is a single online platform where you have access to a wide range of services like online pharmacy, doctor consultations, and diagnostic lab tests at home.</5>
 <!-- 				<h5>Apollo 247.com is an online Doctor consultation & book Lab tests at home.A collaborative project built by a team of 6, and executed in 5 days.</5> -->
 				<p class="project-tech-stack">Tech Stack Used <br>HTML | CSS | JavaScript</p>
@@ -278,8 +283,9 @@
 			</div>
                <!--     To do list -->
 			<div class="project-card">
-				<img src="images/todozlist.jpeg">
 				<h3 class="project-title">To Do List</h3>
+				<img src="images/todozlist.jpeg">
+			
 				<h5 class="project-description">I have created a to-do list app with local storage.This app will be helpfull in making day to day task. User can add task that need to complete and make changes in those task and also remove them from the list.</5>
 				<p class="project-tech-stack">Tech Stack Used <br>HTML | CSS | JavaScript</p>
 				<div style="display: flex;">
@@ -290,8 +296,9 @@
 			
 			
 			<div class="project-card">
-				<img src="images/Cricbuzz.jpeg">
 				<h3 class="project-title">Cricbuzz</h3>
+				<img src="images/Cricbuzz.jpeg">
+				
 				<h5 class="project-description">Cricbuzz is a platform which provide news and updates related to cricket. Cricbuzz provides the fastest ball-by-ball commentary and score that is at par with live action, along with the best updated cricket news, photo-galleries.</5>
 				<p class="project-tech-stack">Tech Stack Used <br>HTML | CSS | JavaScript</p>
 				<div style="display: flex;">
@@ -311,10 +318,11 @@
 			</div> -->
 			
 			<div class="project-card">
+				<h3  class="project-title">Weather App</h3>
 				<img src="images/weatherapp.png">
-				<h3>Weather App</h3>
+			
 				<h5 class="project-description">The weather app is a simple and user-friendly application that allows users to easily check the current temperature of any city around the world. </5>
-				<p>Tech Stack Used <br>HTML | CSS | JavaScript</p>
+				<p class="project-tech-stack">Tech Stack Used <br>HTML | CSS | JavaScript</p>
 				<div style="display: flex;">
 				<a href="https://github.com/Mansi-Deshmukh/WeatherApp" class="project-github-link" target="_blank"><button>Code</button></a>
 				<a href="https://644a710895680a0095b1dba4--lucky-gaufre-e36c4d.netlify.app/"  class="project-deployed-link" target="_blank"><button>Live</button></a>
