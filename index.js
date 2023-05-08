@@ -33,7 +33,7 @@ sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
 // 	const span = document.querySelector("")
 // })
 
-let resumeSec = document.querySelectorAll(".drive")
+let resumeSec = document.querySelectorAll(".resume")
 resumeSec.forEach((el)=> el.addEventListener("click",()=>{
     window.open(
         'https://drive.google.com/file/d/1gRGPY--iLNKflls24xzLRTAQ8Yfm7aIA/view?usp=share_link',
